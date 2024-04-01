@@ -18,6 +18,6 @@ The position information recorded by the optical tracker (NDI Polaris Vicra, Nor
 
 ## Data set structure 
 
-TBD
+TBA
 
 The data is randomly split into training, validation, and test sets of 60, 8, and 32 subjects (720, 96, 384 scans), respectively. The data can be found [here](TBD).
