@@ -33,10 +33,9 @@ Based on these four output vector sets, four evaluation metrics will be used in 
 - Local pixel reconstruction error (LPE), the pixel reconstruction error using LP vectors.
 - Local landmark reconstruction error (LLE), the landmark reconstruction error using LL vectors.
 
-{: .Note} 
+<!-- {: .Note}  -->
 <!-- The landmark is defined based on anatomical structures, such as vessel branches, bony structures and other ad hoc landmarks. It is estimated that between 10-20 landmarks will be available for each scan, but this is subject to further verification. Further details and summary statistics of the landmarks will be made available by the challenge commence. The final score on the four evaluation metrics will be averaged over all scans in the test set. -->
-{: .Note } 
-Runtime will be considered as additional evaluation metric which is the consumed time of predicting positions for all frames in a scan, averaged over all scans in the test set.
+> **_NOTE:_** Runtime will be considered as additional evaluation metric which is the consumed time of predicting positions for all frames in a scan, averaged over all scans in the test set.
 
 ## Rationale in using these metrics
 
@@ -67,8 +66,6 @@ where * indicates the normalised reconstruction errors. The "overall score" with
 
 We also report four other categories of scores, global reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-GLE<sup>* </sup>), local reconstruction score = 0.5*(1-LPE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>), landmark reconstruction score = 0.5*(1-GLE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>) and pixel reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-LPE<sup>* </sup>). These are provided for reference and research interest without formal ranking.
 
-{: .Note }
-The minimum score (0) will be given to any case where the code cannot run or the metric cannot be
-computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. A maximum runtime will be imposed for challenge submissions, benchmarked as the speed of our baseline methods, to encourage usability in the clinical applications. All the raw values for the defined metrics will also be made available.
+> **_NOTE:_** The minimum score (0) will be given to any case where the code cannot run or the metric cannot be computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. A maximum runtime will be imposed for challenge submissions, benchmarked as the speed of our baseline methods, to encourage usability in the clinical applications. All the raw values for the defined metrics will also be made available.
 
 
