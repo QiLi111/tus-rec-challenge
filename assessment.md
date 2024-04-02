@@ -42,7 +42,7 @@ Based on these four output vector sets, four evaluation metrics will be used in 
 **Rationale in using Euclidean distance-based error metrics, as opposed to errors defined in transformation parameter space**
 
 Direct measuring the accuracy of parameters of transformation matrix is difficult since the
-contribution and weighting between rotation and translation components can be sensitive to experimental and imaging configurations, such as reference coordinates and definition of rotation axis, and dependent on application. In this challenge, metrics based on distance error is preferred, which is arguably considered a more practical type of measure to reflect the difference between ground truth and prediction in Euclidean space ([Luo et al. 2023](https://www.sciencedirect.com/science/article/pii/S1361841523000713#bib1)).
+contribution and weighting between rotation and translation components can be sensitive to experimental and imaging configurations, such as reference coordinates and definition of rotation axis, and dependent on application. In this challenge, metrics based on distance error is preferred, which is arguably considered a more practical type of measure to reflect the difference between ground truth and prediction in Euclidean space ([Luo et al. 2023](https://doi.org/10.1016/j.media.2023.102810)).
 
 **Justification of using displacement-based representation of transformation, as opposed to rigid- or affine matrices, as the algorithm output**
 

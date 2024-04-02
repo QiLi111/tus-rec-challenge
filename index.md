@@ -30,11 +30,11 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 | Sep. 16 2024                  | Winners Announcement and Speaker Invitations     |
 | Oct. 6 2024                   | TUS-REC Challenge Event @ MICCAI 2024            |
 
-The Challenge will take place on October 6th 2024 during the ASMUS Workshop. ( Details for location, presentation, and event format: TBC.)
+The Challenge will take place on October 6th 2024 during the ASMUS Workshop. (Details for location, presentation, and event format: TBC.)
 
 ## The Task
 
-This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D world space, both for establishing one of the first benchmarks for 3D US reconstruction and paveing the way from experimental volunteer studies to potential clinical applications for this challenging task.
+This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D space, both for establishing one of the first benchmarks for 3D US reconstruction and paving the way from experimental volunteer studies to potential clinical applications for this challenging task.
 
 For detailed information, please refer to [task description](task.html), [dataset](data.html), [assessment](assessment.html), and [submission process](submission.html).
 

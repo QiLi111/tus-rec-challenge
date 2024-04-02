@@ -22,5 +22,5 @@ Receipt of all submissions will be acknowledged via email within two working day
 
 The evaluation code, together with the baseline models, will be publicly available once this section on our website is open to public.
 
-Participating teams are encouraged, though not obligated, to share their code publicly. Links to any available source code will be provided on the challenge website.
+Participating teams are encouraged, though not obligated, to share their code publicly. Links to any available source code will be provided.
 
