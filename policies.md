@@ -14,7 +14,7 @@ nav_order: 6
 
 # Data Usage Policy
 
-The data is provided under [CC BY NC SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. The data is provided under the CC BY NC SA license. It is exclusively intended for research purposes, in compliance with the restrictions imposed by the original ethics approval and patient consent.
+The data is provided under [CC BY NC SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. It is exclusively intended for research purposes, in compliance with the restrictions imposed by the original ethics approval and patient consent.
 
 Following the conclusion of the challenge, the training and validation data will remain publicly accessible. These datasets may be utilized within the research scope of the challenge and in subsequent research-related publications. However, commercial use of the training and validation data is prohibited. In cases where the intended use is ambiguous, participants accessing the data are requested to refrain from further distribution or utilization beyond the scope of this challenge.
 
